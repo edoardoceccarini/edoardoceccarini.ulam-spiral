@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ulam-Spiral</title>
+</head>
+
+<body>
+  <nav class="site-nav grid">
+    <h1>Ulam Spiral v: 1.0</h1>
+    <ul>
+      <li><a href="#canvas" class="button">Visualize</a></li>       
+    </ul>
+  </nav>
+  <section id="main-section" class="grid">
+    <div class="main-text">
+      <h2>Prime numbers spiral 2D visualizer</h2>
+      <p class="leading">
+        The Ulam spiral or prime spiral, is a graphical depiction of the set of prime numbers devised by mathematician Stanisław Ulam in 1963, and popularized in Martin Gardner's Mathematical Games column in Scientific American a short time later.<br/> It is constructed by writing the positive integers in a square spiral and specially marking the prime numbers.
+        
+      </p>
+      
+    </div>
+
+    <div class="first-image-container"> 
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Ulam_spiral_howto_all_numbers.svg" alt="Ulam spiral all numbers"> 
+        <figcaption>
+          positive integers spiral example
+        </figcaption>
+      </figure>  
+        
+    </div>
+
+    <div class="second-image-container">
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Ulam_spiral_howto_primes_only.svg" alt="Ulam Spiral primes only">
+        <figcaption>
+          primes only spiral example
+        </figcaption>
+      </figure>
+      
+    </div>
+
+    <div class="read-more">
+      <p>Read more <a href="https://en.wikipedia.org/wiki/Ulam_spiral" class="button"> here</a></p>
+     
+    </div>
+
+    <div class="canvas-container">             
+      <canvas id="canvas" width="300" height="300" ></canvas>
+      <p>Click on canvas to start/pause the animation, or double-click to reset.</p> 
+    </div>
+
+  </section>
+  <footer>
+    <div class="grid">
+      <p class="made-by">
+        Made with <svg viewBox="0 0 1792 1792" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="height: 0.8rem;"><path d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z" fill="#e25555"></path></svg> by Edoardo Ceccarini<br/>
+        ceccarinie(at)gmail(dot)com 
+      </p>
+      
+      <ul class="social">
+        <li>
+          <a href="https://github.com/edoardoceccarini"><img src="assets/GitHub-Mark-Light-64px.png" alt="github logo"></a>
+        </li>
+      </ul>
+    
+    </div>
+
+  </footer>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
